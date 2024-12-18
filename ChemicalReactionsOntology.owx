@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-8/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This is an ontology for ChemicalReactions</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AcidBaseReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aqueous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombustionReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CovalentBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Covalent_Bond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecompositionReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndothermicReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExothermicReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glucose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HydrogenBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrogen_Bond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InorganicCompound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inorganic_Molecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IonicBond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ionic_Bond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isotope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganicCompound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organic_Molecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReactionCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReactionType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedoxReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SodiumChloride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateOfMatter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SynthesisReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBond"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#undergoesReaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Combustion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Methane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Water"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcidBaseReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aqueous"/>
+        <Class IRI="#StateOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalyst"/>
+        <Class IRI="#ReactionCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombustionReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CovalentBond"/>
+        <Class IRI="#Bond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecompositionReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Element"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndothermicReaction"/>
+        <Class IRI="#ReactionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExothermicReaction"/>
+        <Class IRI="#ReactionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gas"/>
+        <Class IRI="#StateOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glucose"/>
+        <Class IRI="#Organic_Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrogen"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InorganicCompound"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inorganic_Molecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ion"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IonicBond"/>
+        <Class IRI="#Bond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isotope"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquid"/>
+        <Class IRI="#StateOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methane"/>
+        <Class IRI="#Organic_Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganicCompound"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organic_Molecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxygen"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#ReactionCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedoxReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SodiumChloride"/>
+        <Class IRI="#Inorganic_Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solid"/>
+        <Class IRI="#StateOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solvent"/>
+        <Class IRI="#ReactionCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SynthesisReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#ReactionCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Inorganic_Molecule"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ChemicalReaction"/>
+        <NamedIndividual IRI="#Combustion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atom"/>
+        <NamedIndividual IRI="#Hydrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Molecule"/>
+        <NamedIndividual IRI="#Methane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Molecule"/>
+        <NamedIndividual IRI="#Water"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBond"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#undergoesReaction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBond"/>
+        <Class IRI="#Molecule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasElement"/>
+        <Class IRI="#Molecule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#undergoesReaction"/>
+        <Class IRI="#Molecule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBond"/>
+        <Class IRI="#Bond"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasElement"/>
+        <Class IRI="#Element"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#undergoesReaction"/>
+        <Class IRI="#ChemicalReaction"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
